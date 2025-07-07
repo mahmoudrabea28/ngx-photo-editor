@@ -117,11 +117,11 @@ export class NgxPhotoEditorComponent implements OnDestroy {
   }
 
   rotateRight() {
-    this.cropper.rotate(45);
+    this.cropper.rotate(90);
   }
 
   rotateLeft() {
-    this.cropper.rotate(-45);
+    this.cropper.rotate(-90);
   }
 
   crop() {
